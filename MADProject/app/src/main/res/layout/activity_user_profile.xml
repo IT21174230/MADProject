@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+    <TextView
+        android:id="@+id/userProfTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="224dp"
+        android:text="@string/userProfTxt"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameDisp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/usernDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dispHeight"
+        android:layout_marginBottom="36dp"
+        android:text="@string/usernDisplay"
+        android:textSize="@dimen/body"
+        app:layout_constraintBottom_toTopOf="@+id/nameDisp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/nameDispTxt"
+        android:layout_width="@dimen/dispWidth"
+        android:layout_height="@dimen/dispHeight"
+        android:layout_marginTop="284dp"
+        android:text="@string/nameDispTxt"
+        android:textSize="@dimen/body"
+        app:layout_constraintEnd_toStartOf="@+id/nameDisp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameDisp"
+        android:layout_width="@dimen/dispWidth"
+        android:layout_height="0dp"
+        android:layout_marginBottom="347dp"
+        android:text="@string/nameDisp"
+        android:textSize="@dimen/body"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nameDispTxt"
+        app:layout_constraintTop_toBottomOf="@+id/userProfTxt" />
+
+    <TextView
+        android:id="@+id/emailDispTxt"
+        android:layout_width="@dimen/dispWidth"
+        android:layout_height="@dimen/dispHeight"
+        android:layout_marginTop="4dp"
+        android:text="@string/emailDispTxt"
+        android:textSize="@dimen/body"
+        app:layout_constraintEnd_toStartOf="@+id/emailDisp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameDispTxt" />
+
+    <TextView
+        android:id="@+id/emailDisp"
+        android:layout_width="@dimen/dispWidth"
+        android:layout_height="@dimen/dispHeight"
+        android:text="@string/emailDisp"
+        android:textSize="@dimen/body"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/emailDispTxt"
+        app:layout_constraintTop_toBottomOf="@+id/nameDisp" />
+
+    <Button
+        android:id="@+id/edtBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/lightBlue"
+        android:text="@string/edtBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:backgroundTint="@color/lightBlue"
+        android:text="@string/deletePBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toEndOf="@+id/edtBtn"
+        app:layout_constraintTop_toBottomOf="@+id/discDip"
+        app:layout_constraintVertical_bias="0.651" />
+
+    <TextView
+        android:id="@+id/passwDispTxt"
+        android:layout_width="@dimen/dispWidth"
+        android:layout_height="@dimen/dispHeight"
+        android:text="@string/PasswDispTxt"
+        android:textSize="@dimen/body"
+        app:layout_constraintBottom_toTopOf="@+id/telDispTxt"
+        app:layout_constraintEnd_toStartOf="@+id/passwDisp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailDispTxt"
+        app:layout_constraintVertical_bias="0.985" />
+
+    <TextView
+        android:id="@+id/passwDisp"
+        android:layout_width="@dimen/dispWidth"
+        android:layout_height="@dimen/dispHeight"
+        android:layout_marginTop="3dp"
+        android:text="@string/passwDisp"
+        android:textSize="@dimen/body"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/passwDispTxt"
+        app:layout_constraintTop_toBottomOf="@+id/emailDisp" />
+
+    <TextView
+        android:id="@+id/telDispTxt"
+        android:layout_width="@dimen/dispWidth"
+        android:layout_height="0dp"
+        android:layout_marginBottom="156dp"
+        android:text="@string/telDispTxt"
+        android:textSize="@dimen/body"
+        app:layout_constraintBottom_toTopOf="@+id/edtBtn"
+        app:layout_constraintEnd_toStartOf="@+id/telDisp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backProfile" />
+
+    <TextView
+        android:id="@+id/telDisp"
+        android:layout_width="@dimen/dispWidth"
+        android:layout_height="@dimen/dispHeight"
+        android:layout_marginTop="1dp"
+        android:text="@string/telDisp"
+        android:textSize="@dimen/body"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/telDispTxt"
+        app:layout_constraintTop_toBottomOf="@+id/passwDisp" />
+
+    <TextView
+        android:id="@+id/discDip"
+        android:layout_width="@dimen/dispWidthLongText"
+        android:layout_height="@dimen/dispHeight"
+        android:text="@string/discDip"
+        android:textSize="@dimen/body"
+        app:layout_constraintBottom_toTopOf="@+id/edtBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telDispTxt" />
+
+    <Button
+        android:id="@+id/backProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="368dp"
+        android:backgroundTint="@color/buttonGray"
+        android:text="@string/backBtn"
+        app:layout_constraintBottom_toTopOf="@+id/telDispTxt"
+        app:layout_constraintEnd_toStartOf="@+id/userProfTxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="124dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/usernDisplay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userProfTxt"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/profile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

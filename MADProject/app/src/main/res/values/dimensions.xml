@@ -11,5 +11,5 @@
     <dimen name="listItemWidth">350dp</dimen>
     <dimen name="donateBtnHeight">40dp</dimen>
     <dimen name="donateBtnWidth">120dp</dimen>
-    <dimen name="iclen">4s0dp</dimen>
+    <dimen name="iclen">40dp</dimen>
 </resources>
