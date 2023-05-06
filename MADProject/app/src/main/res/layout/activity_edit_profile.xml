@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditProfile">
+    tools:context=".activites.EditProfile">
 
     <ImageView
         android:id="@+id/editProfPicIV"
@@ -38,7 +38,6 @@
         android:ems="10"
         android:hint="@string/usernEdit"
         android:inputType="textPersonName"
-        android:text="@string/usernEdit"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -51,8 +50,8 @@
         android:layout_height="@dimen/inputHeight"
         android:height="@dimen/inputHeight"
         android:ems="10"
+        android:hint="@string/nameEdit"
         android:inputType="textPersonName"
-        android:text="@string/nameEdit"
         app:layout_constraintBottom_toTopOf="@+id/emailEdit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
