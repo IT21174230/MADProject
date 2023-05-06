@@ -1,4 +1,4 @@
-package com.example.madproject.activites
+package com.example.madproject.activities
 
 import android.content.ContentValues.TAG
 import android.content.Intent

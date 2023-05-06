@@ -64,8 +64,7 @@
     <string name="mockListItem1">Mock List Item</string>
     <string name="search">Search</string>
 
-
-    <string name="NTitle01">Funds</string>
+<string name="NTitle01">Funds</string>
     <string name="Nmyprofile">My profile</string>
     <string name="Ncloths">cloths</string>
     <string name="Nmedical">Medical</string>
@@ -114,4 +113,6 @@
     <string name="Ytitle02">Donate details</string>
     <string name="Ybtnconfirm">confirm </string>
     <string name="Ybtncancel">cancel </string>
+
+
 </resources>

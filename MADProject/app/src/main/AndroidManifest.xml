@@ -12,25 +12,25 @@
         android:theme="@style/Theme.MADProject"
         tools:targetApi="31">
         <activity
-            android:name=".activites.EditProfile"
+            android:name=".activities.EditProfile"
             android:exported="false" />
         <activity
-            android:name=".activites.UserProfile"
+            android:name=".activities.UserProfile"
             android:exported="false" />
         <activity
-            android:name=".activites.homepage"
+            android:name=".activities.homepage"
             android:exported="false" />
         <activity
-            android:name=".activites.charityCauses"
+            android:name=".activities.charityCauses"
             android:exported="false" />
         <activity
-            android:name=".activites.profilecreation"
+            android:name=".activities.profilecreation"
             android:exported="false" />
         <activity
-            android:name=".activites.SignUp"
+            android:name=".activities.SignUp"
             android:exported="false" />
         <activity
-            android:name=".activites.LogIn"
+            android:name=".activities.LogIn"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

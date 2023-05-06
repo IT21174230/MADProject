@@ -1,4 +1,4 @@
-package com.example.madproject.activites
+package com.example.madproject.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
