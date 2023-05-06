@@ -12,4 +12,10 @@
     <dimen name="donateBtnHeight">40dp</dimen>
     <dimen name="donateBtnWidth">120dp</dimen>
     <dimen name="iclen">40dp</dimen>
+
+    <dimen name="dimen2">34dp</dimen>
+    <dimen name="dimen3">24dp</dimen>
+    <dimen name="dimen4">40dp</dimen>
+    <dimen name="dimen5">30dp</dimen>
+    <dimen name="dimen6">90dp</dimen>
 </resources>

@@ -1,9 +1,10 @@
-package com.example.madproject
+package com.example.madproject.activites
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.madproject.R
 
 class profilecreation : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
